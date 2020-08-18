@@ -7,7 +7,7 @@ This repository contains simple implementation of the popular dynamic programmin
 - [x] matplotlib
 
 # Optimal Policies
-The optimal policies for different cost functions g_1 and g_2 are shown.
+The optimal policies for different cost functions g_1 and g_2 are shown. The optimal policies are the same while the state-value functions are different.
 The maze can be specified in maze.txt. S marks the starting location. G marks the goal and T are traps. Arrows indicate the optimal action for each cell.
 
 
