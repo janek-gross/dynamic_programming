@@ -17,7 +17,7 @@ For both cost/reward functions the optimal policies are the same while the state
 # Usage
 The maze can be specified in maze.txt. The maze has to be rectengular. Free space is indicated by 0 and walls are indicated by 1. S marks the starting location. G marks the goal and T are traps. Cost functions can be added or modified in utils/cost_functions.py. Examples are demonstrated in dynamic_programming.ipynb.
 
-
-
+# License
+https://unlicense.org
 
 
