@@ -7,14 +7,15 @@ This repository contains simple implementation of the popular dynamic programmin
 - [x] matplotlib
 
 # Optimal Policies and Value Functions
-The optimal policies and value functions for different cost/reward functions g_1 and g_2 are shown. The optimal policies are indicated by the arrows. The state-value functions are indicated by the cell colors.
+The optimal policies are indicated by the arrows. These arrows show the optimal action in each cell. The state-value functions are indicated by the cell colors.
+Currently the optimal policies and value functions for different cost functions g_1 and g_2 are shown. In this example the cost functions are the same as negative reward functions.
 
 For both cost/reward functions the optimal policies are the same while the state-value functions are different.
 <img src="https://github.com/janek-gross/dynamic_programming/blob/master/plots/cost: g1%20%20%20 Optimistic Policy Iteration.png?raw=true" width="600" />
 <img src="https://github.com/janek-gross/dynamic_programming/blob/master/plots/cost: g2%20%20%20 Optimistic Policy Iteration.png?raw=true" width="600" />
 
 # Usage
-The maze can be specified in maze.txt. S marks the starting location. G marks the goal and T are traps. Arrows indicate the optimal action for each cell.
+The maze can be specified in maze.txt. The maze has to be rectengular. Free space is indicated by 0 and walls are indicated by 1. S marks the starting location. G marks the goal and T are traps. Cost functions can be added or modified in utils/cost_functions.py. Examples are demonstrated in dynamic_programming.ipynb.
 
 
 
