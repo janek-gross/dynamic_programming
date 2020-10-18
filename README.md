@@ -13,7 +13,7 @@ For both cost/reward functions the optimal policies are the same while the state
 <img src="https://github.com/janek-gross/dynamic_programming/blob/master/plots/cost: g1%20%20%20 Optimistic Policy Iteration.png?raw=true" width="600" />
 <img src="https://github.com/janek-gross/dynamic_programming/blob/master/plots/cost: g2%20%20%20 Optimistic Policy Iteration.png?raw=true" width="600" />
 
-# usage
+# Usage
 The maze can be specified in maze.txt. S marks the starting location. G marks the goal and T are traps. Arrows indicate the optimal action for each cell.
 
 
